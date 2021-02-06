@@ -19,13 +19,13 @@ guest.startup();
 
 
 
-@Test
+@Test(priority =1)
 public void verifyTitle(){
 	String g = guest.verifytitle();
 	System.out.println(g);
 }
 
-@Test
+@Test(priority =2 )
 public void searchresult(){
 	
 	guest.searchresult();

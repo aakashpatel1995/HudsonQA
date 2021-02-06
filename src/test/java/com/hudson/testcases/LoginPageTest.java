@@ -26,7 +26,7 @@ public class LoginPageTest extends TestBase{
 		
 		
 	}
-	@Test
+	@Test(priority =1 )
 	public void verifyTitleTest() {
 		
 		String title = loginPage.Verifytitle();
@@ -34,7 +34,7 @@ public class LoginPageTest extends TestBase{
 		
 		
 	}
-	@Test
+	@Test(priority =2 )
 	public void verifyLoginTest() {
 		loginPage = new LoginPage();
 		homePage = new HomePage();
