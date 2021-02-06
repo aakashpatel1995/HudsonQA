@@ -35,21 +35,21 @@ public class PaymentTest extends TestBase{
 		
 	}
 	
-	@Test
+	@Test(priority =1 )
 	public void verifytitletest() {
 		String p  = payment.verifyPagetitle();
 		Assert.assertEquals(p, "Payments -thebay.com");
 		
 	}
 	
-	@Test
+	@Test(priority =2)
 	public void VerifyPaymentPage() {
 		String vp = payment.verifyPayment(); 
 		Assert.assertEquals(vp, "Payment Methods");
 		
 		
 	}
-	
+	@Test(priority =3 )
 	public void verifyAddPaymenttest() {
 		String v = payment.verify();
 		Assert.assertEquals(v, "Save your payment method here.It’ll help you check out faster!");

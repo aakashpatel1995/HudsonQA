@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HudsonBay Test Suite">
+
+	
+
+
+	<test name="HudsonBay  WebApp Cases">
+		<classes>
+			<class name="com.hudson.testcases.AddressTest"></class>
+			<class name="com.hudson.testcases.GuestUserTest"></class>
+			<class name="com.hudson.testcases.HomePageTest"></class>
+			<class name="com.hudson.testcases.LoginPageTest"></class>
+			<class name="com.hudson.testcases.OrderHistoryTest"></class>
+			<class name="com.hudson.testcases.PaymentTest"></class>
+			<class name="com.hudson.testcases.ProfilePageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
