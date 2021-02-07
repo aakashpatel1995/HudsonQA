@@ -3,33 +3,6 @@
 <suite name="Failed suite [HudsonBay Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="HudsonBay  WebApp Cases(failed)">
     <classes>
-      <class name="com.hudson.testcases.PaymentTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="Startup"/>
-          <include name="VerifyPaymentPage"/>
-          <include name="verifytitletest"/>
-          <include name="verifyAddPaymenttest"/>
-        </methods>
-      </class> <!-- com.hudson.testcases.PaymentTest -->
-      <class name="com.hudson.testcases.AddressTest">
-        <methods>
-          <include name="verifyAddresschecktest"/>
-          <include name="verifylabelcheckTest"/>
-          <include name="teardown"/>
-          <include name="verifytitletest"/>
-          <include name="startup"/>
-        </methods>
-      </class> <!-- com.hudson.testcases.AddressTest -->
-      <class name="com.hudson.testcases.HomePageTest">
-        <methods>
-          <include name="Startup"/>
-          <include name="TearDown"/>
-          <include name="verifyTitleTest"/>
-          <include name="verifyOrderHistoryClick"/>
-          <include name="verifyprofileclicktest"/>
-        </methods>
-      </class> <!-- com.hudson.testcases.HomePageTest -->
       <class name="com.hudson.testcases.OrderHistoryTest">
         <methods>
           <include name="VerifyOrderHistoryTitleTest"/>
@@ -39,12 +12,38 @@
           <include name="Startup"/>
         </methods>
       </class> <!-- com.hudson.testcases.OrderHistoryTest -->
+      <class name="com.hudson.testcases.HomePageTest">
+        <methods>
+          <include name="Startup"/>
+          <include name="TearDown"/>
+          <include name="verifyTitleTest"/>
+          <include name="verifyOrderHistoryClick"/>
+        </methods>
+      </class> <!-- com.hudson.testcases.HomePageTest -->
+      <class name="com.hudson.testcases.AddressTest">
+        <methods>
+          <include name="verifyAddresschecktest"/>
+          <include name="verifylabelcheckTest"/>
+          <include name="teardown"/>
+          <include name="verifytitletest"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- com.hudson.testcases.AddressTest -->
       <class name="com.hudson.testcases.GuestUserTest">
         <methods>
           <include name="searchresult"/>
           <include name="startup"/>
         </methods>
       </class> <!-- com.hudson.testcases.GuestUserTest -->
+      <class name="com.hudson.testcases.PaymentTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Startup"/>
+          <include name="VerifyPaymentPage"/>
+          <include name="verifytitletest"/>
+          <include name="verifyAddPaymenttest"/>
+        </methods>
+      </class> <!-- com.hudson.testcases.PaymentTest -->
     </classes>
   </test> <!-- HudsonBay  WebApp Cases(failed) -->
 </suite> <!-- Failed suite [HudsonBay Test Suite] -->

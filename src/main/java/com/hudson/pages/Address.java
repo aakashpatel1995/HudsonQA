@@ -9,7 +9,7 @@ import com.hudson.base.TestBase;
 public class Address extends TestBase {
 
 	
-	@FindBy(xpath="//h1[contains(.,'Address Book')]")
+	@FindBy(css ="//h1[contains(.,'Address Book')]")
 WebElement AddressLabel;
 	
 	

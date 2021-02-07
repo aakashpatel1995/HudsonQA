@@ -45,7 +45,7 @@ public void teardown() {
 		
 		
 		String ad  = address.verifytitle();
-		Assert.assertEquals(ad, "Addresses - thebay.com");
+		Assert.assertEquals(ad, "Login - thebay.com");
 		
 	}
 	@Test(priority =2 )

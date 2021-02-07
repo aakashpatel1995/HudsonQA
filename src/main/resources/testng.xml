@@ -4,9 +4,7 @@
 
 	
 
-<listeners>
-<listener class-name = "com.hudson.ExtentReportListener.ExtentReportListener" />
-</listeners>
+
 	<test name="HudsonBay  WebApp Cases">
 		<classes>
 			<class name="com.hudson.testcases.AddressTest"></class>

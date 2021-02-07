@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hudson.testcases.GuestUserTest">
+      <class name="com.hudson.testcases.AddressTest">
         <methods>
-          <include name="searchresult"/>
+          <include name="verifyAddresschecktest"/>
+          <include name="verifylabelcheckTest"/>
+          <include name="teardown"/>
           <include name="startup"/>
         </methods>
-      </class> <!-- com.hudson.testcases.GuestUserTest -->
+      </class> <!-- com.hudson.testcases.AddressTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
